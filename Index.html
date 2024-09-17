@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNI</title>
+    <script src="./validacion.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css">
+</head>
+<body>
+    <div class="principal" >
+        <form method="get" name="dni" onsubmit="return validacion(this)" action="Index.html">
+            <label>DNI</label>
+            <br>
+            <input class="cajas" type="text" name="dni" id="dni" placeholder="Ingrese su DNI">
+            <br>
+            <label>Letra</label>
+            <br>
+            <input class="cajas" type="text" name="letra" id="letra" placeholder="Letra correspondiente en mayuscula">
+            <br>
+            <br>
+            <input class="boton" type="submit" id="enviar" value="Enviar" >
+            <input class="boton" type="reset" id="reset" value="Reset" >
+        </form>
+
+    </div>
+</body>
+</html>
