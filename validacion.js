@@ -20,7 +20,7 @@ function validacion(form){
             let letraCorrecta = letras[indiceLetra];
 
             if (letra !== letraCorrecta) {
-                alert("La letra proporcionada no es correcta. La letra correcta es: " + letraCorrecta);
+                alert("La letra proporcionada no es correcta.");
                 return false;
             }
 
