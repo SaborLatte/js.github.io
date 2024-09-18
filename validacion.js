@@ -3,8 +3,8 @@ function validacion(form){
             let letra = form.letra.value.trim().toUpperCase();
 
             
+            alert("Por favor, ingrese un DNI valido");
             if (dni === "") {
-                alert("Por favor, ingrese un DNI");
                 return false;
             }
             if (isNaN(dni) || dni <= 0 || dni.toString().length !== 8 || dni > 99999999) {
